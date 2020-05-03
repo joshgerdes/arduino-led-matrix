@@ -1,0 +1,8 @@
+{
+    "board": "arduino:avr:nano",
+    "configuration": "cpu=atmega328old",
+    "programmer": "AVR ISP",
+    "sketch": "arduino-led-matrix.ino",
+    "port": "/dev/tty.usbserial-1420",
+    "output": "build"
+}
