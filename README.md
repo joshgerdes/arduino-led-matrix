@@ -1,7 +1,8 @@
 # Arduino LED Matrix
  
- An Arduino powered 16x16 LED Matrix using the [FastLED](http://fastled.io/) library to drive a WS2812B LED array.
+[![Video of LED Matrix](https://github.com/joshgerdes/arduino-led-matrix/blob/master/resources/images/LED_Matrix.gif?raw=true)](https://www.youtube.com/watch?v=froi3urcf1Y)
 
+ An Arduino powered 16x16 LED Matrix using the [FastLED](http://fastled.io/) library to drive a WS2812B LED array.
 ## Wiring Diagram
 
 ![Fritzing diagram sketch](resources/wiring-diagram_bb.png)
