@@ -55,7 +55,7 @@ void drawBitmap(const long* bitmap) {
         leds[i + j] = pgm_read_dword(&(bitmap[i + j]));
       }
     } else {
-      for (int j = COLS - 1; j > 0; j--) {
+      for (int j = COLS; j > 0; j--) {
         leds[i + COLS - j] = pgm_read_dword(&(bitmap[i + j - 1]));
       }
     }
